@@ -26,7 +26,7 @@ public class Program {
 		String nameClient = sc.nextLine();
 		System.out.print("Email: ");
 		String emailClient = sc.nextLine();
-		System.out.print("Data de aniversário (DD/MM/YYYY)");
+		System.out.print("Data de aniversário (DD/MM/YYYY): ");
 		Date birthDateClient = sdf.parse(sc.next());
 		
 		//Instancia o novo cliente:
@@ -45,7 +45,7 @@ public class Program {
 		System.out.print("Digite o número de itens do pedido: ");
 		int n = sc.nextInt();
 		for(int i = 1; i <=n; i++) {
-			System.out.print("Digite os dados do item #" + i);
+			System.out.println("Digite os dados do item #" + i);
 			System.out.print("Nome do produto: ");
 			sc.nextLine();
 			String productName = sc.nextLine();
